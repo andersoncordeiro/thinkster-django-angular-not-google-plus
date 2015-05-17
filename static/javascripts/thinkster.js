@@ -3,10 +3,13 @@
 
     angular
         .module('thinkster', [
+            'thinkster.config',
             'thinkster.routes',
             'thinkster.authentication',
-            'thinkster.config',
-            'thinkster.layout'
+            'thinkster.layout',
+            'thinkster.posts',
+            'thinkster.utils',
+            'thinkster.profiles'
     ]);
 
     angular
